@@ -1,0 +1,14 @@
+[package]
+name = "TraderMoeV1"
+version = "1.0.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "83641d3f083762f31700060e5e95fbb1cbc28bf0" }
+LPCoin = { local= "../LPCoin" }
+LPResourceAccount = { local= "../LPResourceAccount" }
+U256 = { local= "../u256" }
+UQ64x64 = { local= "../uq64x64" }
+
+[addresses]
+SwapDeployer = "_"
+ResourceAccountDeployer = "_"

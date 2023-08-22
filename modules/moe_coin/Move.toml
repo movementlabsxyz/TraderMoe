@@ -1,0 +1,9 @@
+[package]
+name = "MoeCoin"
+version = "0.0.0"
+
+[addresses]
+MoeCoin = "_"
+
+[dependencies]
+AptosFramework = { local = "/home/leo/Ash/MovementLabs/aptos-core/aptos-move/framework/aptos-framework" }

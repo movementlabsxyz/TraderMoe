@@ -1,0 +1,5 @@
+# Move Build Output
+build/
+
+# Aptos dir
+.aptos
