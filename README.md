@@ -12,13 +12,13 @@
 
 ![Trader Moe interface](./img/tradermoe.png)
 
-The interface is available at [https://tradermoe.xyz](https://tradermoe.xyz/#/swap?chain=movement_testnet)
+The interface is available at [https://tradermoe.xyz](https://tradermoe.xyz/#/swap?chain=movement_testnet).
 
-**Note:** Please use the [Petra](https://petra.app/) wallet as the [Pontem](https://pontem.network/) wallet seems to be unstable with the interface.
+🚨⚠️ **Warning:** Please use the [Petra](https://petra.app/) wallet as the [Pontem](https://pontem.network/) wallet seems to be unstable with the interface. ⚠️🚨
 
 ## Network
 
-You should add the [Movement Network](https://docs.movementlabs.xyz/)'s [Testnet](https://subnets-test.avax.network/subnets/K4GygGTpKkNzzjiLfZVsmQduGqSFztJx4nk52CvA1afcFAhsH) to the wallet, see [How to add the Movement network to my wallet?](https://docs.movementlabs.xyz/testnet/how-to-add-the-movement-network-to-my-wallet) for details.
+You should add the [Movement Network](https://docs.movementlabs.xyz/)'s [Testnet](https://subnets-test.avax.network/subnets/K4GygGTpKkNzzjiLfZVsmQduGqSFztJx4nk52CvA1afcFAhsH) to the wallet, see [How to add the Movement network to my wallet?](https://docs.movementlabs.xyz/testnet/how-to-add-the-movement-network-to-my-wallet) for details. Here's what it looks like in Petra:
 
 ![Petra Wallet Network](./img/petra.png)
 
