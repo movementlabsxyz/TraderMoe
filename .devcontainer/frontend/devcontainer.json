@@ -1,0 +1,14 @@
+{
+    "name": "frontend",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        // List any VS Code extensions you want pre-installed
+    ],
+    "runArgs": [
+        // Any additional Docker run arguments
+    ],
+    "remoteUser": "root"
+}
