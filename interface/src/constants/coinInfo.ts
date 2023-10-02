@@ -8,8 +8,8 @@ export const APTOS_CoinInfo: { [address: string]: Coin } = {
     name: 'Aptos',
     logoURL: ['/images/icons/APT.svg'],
   },
-  '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin': {
-    address: '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin',
+  '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::moe_coin::MoeCoin': {
+    address: '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::moe_coin::MoeCoin',
     decimals: 8,
     symbol: 'ANI',
     name: 'TraderMoe Coin',
@@ -32,22 +32,22 @@ export const MOVEMENT_TESTNET_CoinInfo: { [address: string]: Coin } = {
     name: 'Movement',
     logoURL: ['/images/icons/mvmt.png'],
   },
-  '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin': {
-    address: '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin',
+  '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::moe_coin::MoeCoin': {
+    address: '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::moe_coin::MoeCoin',
     decimals: 8,
     symbol: 'MOE',
     name: 'TraderMoe Coin',
     logoURL: ['/images/icons/moe.png'],
   },
-  '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::USDT': {
-    address: '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::USDT',
+  '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::TestCoinsV1::USDT': {
+    address: '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::TestCoinsV1::USDT',
     decimals: 8,
     symbol: 'USDT',
     name: 'Tether USD',
     logoURL: ['/images/icons/USDT.webp'],
   },
-  '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC': {
-    address: '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC',
+  '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::TestCoinsV1::BTC': {
+    address: '0x0d9b5f58abc4c5fe4b9b06e7dd34a08608eb1c0a9672e5229dc454eafa2388b8::TestCoinsV1::BTC',
     decimals: 8,
     symbol: 'BTC',
     name: 'Bitcoin',

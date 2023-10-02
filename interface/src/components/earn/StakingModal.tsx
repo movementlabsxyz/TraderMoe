@@ -1,5 +1,5 @@
-import { Decimal } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import { useCallback, useState } from 'react'
 import styled from 'styled-components/macro'
 

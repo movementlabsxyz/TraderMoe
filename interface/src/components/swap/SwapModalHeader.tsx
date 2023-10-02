@@ -1,5 +1,5 @@
-import { Decimal } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import { BestTrade, TradeType } from 'hooks/useBestTrade'
 import { useContext, useEffect, useState } from 'react'
 import { AlertTriangle, ArrowDown } from 'react-feather'
@@ -13,9 +13,9 @@ import { FiatValue } from '../CoinInputPanel/FiatValue'
 import CoinLogo from '../CoinLogo'
 import { AutoColumn } from '../Column'
 import { RowBetween, RowFixed } from '../Row'
-import TradePrice from './TradePrice'
 import { AdvancedSwapDetails } from './AdvancedSwapDetails'
 import { SwapShowAcceptChanges, TruncatedText } from './styleds'
+import TradePrice from './TradePrice'
 
 const ArrowWrapper = styled.div`
   padding: 4px;

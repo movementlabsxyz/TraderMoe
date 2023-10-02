@@ -1,5 +1,5 @@
-import { Decimal } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import { OutlineCard } from 'components/Card'
 import { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components/macro'

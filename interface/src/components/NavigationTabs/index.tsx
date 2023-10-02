@@ -1,5 +1,5 @@
-import { Decimal } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import useTheme from 'hooks/useTheme'
 import { ReactNode } from 'react'
 import { ArrowLeft } from 'react-feather'

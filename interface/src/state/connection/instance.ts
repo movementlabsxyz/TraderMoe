@@ -1,3 +1,4 @@
+import { Connection, JsonRpcProvider } from '@mysten/sui.js'
 import SDK, {
   AptosCoinInfoResource,
   AptosCoinStoreResource,
@@ -9,7 +10,6 @@ import SDK, {
   SwapPoolResource,
   Utils,
 } from '@tradermoe/v1-sdk'
-import { Connection, JsonRpcProvider } from '@mysten/sui.js'
 // import { AptosClient } from 'aptos'
 import { CHAIN_INFO } from 'constants/chainInfo'
 import { CHAIN_IDS_TO_SDK_NETWORK, SupportedChainId } from 'constants/chains'

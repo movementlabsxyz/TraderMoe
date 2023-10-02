@@ -1,5 +1,5 @@
-import { Utils } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Utils } from '@tradermoe/v1-sdk'
 import { SwitchLocaleLink } from 'components/SwitchLocaleLink'
 import { SupportedChainId } from 'constants/chains'
 import { BIG_INT_ZERO, BP, REFRESH_TIMEOUT } from 'constants/misc'

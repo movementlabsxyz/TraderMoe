@@ -1,6 +1,6 @@
+import { Trans } from '@lingui/macro'
 import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { StakedLPInfo, UserInfoReturn } from '@tradermoe/v1-sdk/dist/tsc/modules/MasterChefModule'
-import { Trans } from '@lingui/macro'
 import FarmCard, { FarmCardProps, FarmCardType } from 'components/PositionCard/farmCard'
 import { getChainInfoOrDefault } from 'constants/chainInfo'
 import { SupportedChainId } from 'constants/chains'

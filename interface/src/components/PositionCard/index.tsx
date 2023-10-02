@@ -1,5 +1,5 @@
-import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { getChainInfoOrDefault } from 'constants/chainInfo'
 import { amountPretty, CoinAmount, useCoin } from 'hooks/common/Coin'
 import { Pair, pairKey, PairState, useNativePrice, usePair } from 'hooks/common/Pair'

@@ -1,5 +1,5 @@
-import { Decimal } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import { BestTrade } from 'hooks/useBestTrade'
 import { ReactNode } from 'react'
 import { Text } from 'rebass'

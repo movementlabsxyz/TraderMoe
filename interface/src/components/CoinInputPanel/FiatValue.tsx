@@ -1,7 +1,7 @@
-import { Decimal } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
 // eslint-disable-next-line no-restricted-imports
 import { t } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import HoverInlineText from 'components/HoverInlineText'
 import { useMemo } from 'react'
 
