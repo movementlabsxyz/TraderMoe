@@ -1,5 +1,5 @@
-import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { AutoColumn } from 'components/Column'
 import { LoadingOpacityContainer, loadingOpacityMixin } from 'components/Loader/styled'
 import { isSupportedChain } from 'constants/chains'

@@ -1,5 +1,5 @@
-import { Decimal } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import { Coin, CoinAmount } from 'hooks/common/Coin'
 import { Text } from 'rebass'
 

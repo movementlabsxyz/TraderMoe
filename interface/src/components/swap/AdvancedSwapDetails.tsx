@@ -1,5 +1,5 @@
-import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import Card from 'components/Card'
 import { LoadingRows } from 'components/Loader/styled'
 import { Coin, CoinAmount } from 'hooks/common/Coin'

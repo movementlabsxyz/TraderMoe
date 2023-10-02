@@ -1,5 +1,5 @@
-import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { LoadingRows } from 'components/Loader'
 import QuestionHelper from 'components/QuestionHelper'
 import TransactionConfirmationModal from 'components/TransactionConfirmationModal'

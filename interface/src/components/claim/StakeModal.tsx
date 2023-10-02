@@ -1,6 +1,6 @@
-import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
 import { Input } from '@rebass/forms'
+import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { FarmCardProps, FarmCardType } from 'components/PositionCard/farmCard'
 import TransactionConfirmationModal, { ConfirmationModalContent } from 'components/TransactionConfirmationModal'
 import { SupportedChainId } from 'constants/chains'

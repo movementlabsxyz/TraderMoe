@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-restricted-imports
-import { Decimal } from '@tradermoe/v1-sdk'
 import { t, Trans } from '@lingui/macro'
+import { Decimal } from '@tradermoe/v1-sdk'
 import { useRef } from 'react'
 import { Settings } from 'react-feather'
 import { Text } from 'rebass'

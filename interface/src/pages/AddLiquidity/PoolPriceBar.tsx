@@ -1,5 +1,5 @@
-import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { Trans } from '@lingui/macro'
+import { Decimal, Utils } from '@tradermoe/v1-sdk'
 import { Coin } from 'hooks/common/Coin'
 import { useContext } from 'react'
 import { Text } from 'rebass'
