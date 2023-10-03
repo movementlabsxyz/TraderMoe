@@ -23,9 +23,9 @@ You should add the [Movement Network](https://docs.movementlabs.xyz/)'s [Testnet
 ![Petra Wallet Network](./img/petra.png)
 
 Modules addresses:
-- `0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin`
-- `0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TraderMoePoolV1`
-- `0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1`
+- `0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::moe_coin`
+- `0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TraderMoePoolV1`
+- `0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1`
 
 ## Test account
 

@@ -26,7 +26,7 @@ const sdk = new SDK('https://fullnode.devnet.aptoslabs.com', NetworkType.Devnet)
 ```typescript
 (async () => {
   const APTOS = '0x1::aptos_coin::AptosCoin'
-  const BTC = '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC'
+  const BTC = '0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::BTC'
 
   const output = await sdk.swap.isPairExist(APTOS, BTC)
 })()
@@ -39,7 +39,7 @@ If pair not exists, tx will create pair first
 ```typescript
 (async () => {
   const APTOS = '0x1::aptos_coin::AptosCoin'
-  const BTC = '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC'
+  const BTC = '0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::BTC'
 
   const isPairExist = await sdk.swap.isPairExist(APTOS, BTC)
 
@@ -95,7 +95,7 @@ If pair not exists, tx will create pair first
 ```typescript
 (async () => {
   const APTOS = '0x1::aptos_coin::AptosCoin'
-  const BTC = '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC'
+  const BTC = '0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::BTC'
   const lpAmount = 1e6
 
   const output = await sdk.swap.removeLiquidityRates({
@@ -135,7 +135,7 @@ Swap exact coin to coin mode
 ```typescript
 (async () => {
   const APTOS = '0x1::aptos_coin::AptosCoin'
-  const BTC = '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC'
+  const BTC = '0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::BTC'
   const aptosAmount = 1e6
 
   const trades = await sdk.route.getRouteSwapExactCoinForCoin({
@@ -173,7 +173,7 @@ Swap coin to exact coin mode
 ```typescript
 (async () => {
   const APTOS = '0x1::aptos_coin::AptosCoin'
-  const BTC = '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC'
+  const BTC = '0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::BTC'
   const btcAmount = 1e6
 
   const trades = await sdk.route.getRouteSwapCoinForExactCoin({
@@ -226,7 +226,7 @@ Swap coin to exact coin mode
 ```typescript
 (async () => {
   const APTOS = '0x1::aptos_coin::AptosCoin'
-  const BTC = '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC'
+  const BTC = '0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::BTC'
   const queryAddress = '0xA11ce'
 
   const output = await sdk.swap.getLPCoinAmount({
@@ -251,7 +251,7 @@ Swap coin to exact coin mode
 ```typescript
 (async () => {
   const APTOS = '0x1::aptos_coin::AptosCoin'
-  const BTC = '0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::BTC'
+  const BTC = '0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::BTC'
 
   const output = await sdk.swap.getLPCoinAPY({
     coinX: APTOS,
