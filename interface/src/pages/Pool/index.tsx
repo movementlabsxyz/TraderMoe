@@ -180,12 +180,12 @@ export default function Pool() {
         poolCoinYAmount: res2[1]?.coinY,
         // @ts-ignore
         stakedLP: res.get(
-          '0x6d013996933469b027ea0917214f9c45e6f10b7aa075b4200c11869069fb471b::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin>'
+          '0x2ce24c1d7cc2aebc8effbf4b8bf8d35985627316a3f21e55cbabc15922d6d02a::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::moe_coin::MoeCoin>'
         )?.amount,
         stakeAPR: res2[1]?.apr,
         // @ts-ignore
         earnedANI: res.get(
-          '0x6d013996933469b027ea0917214f9c45e6f10b7aa075b4200c11869069fb471b::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin>'
+          '0x2ce24c1d7cc2aebc8effbf4b8bf8d35985627316a3f21e55cbabc15922d6d02a::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::moe_coin::MoeCoin>'
         )?.pendingAni,
       })
       if (chainId === SupportedChainId.APTOS) {
@@ -195,12 +195,12 @@ export default function Pool() {
           poolCoinYAmount: res2[2]?.coinY,
           // @ts-ignore
           stakedLP: res.get(
-            '0x6d013996933469b027ea0917214f9c45e6f10b7aa075b4200c11869069fb471b::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC>'
+            '0x2ce24c1d7cc2aebc8effbf4b8bf8d35985627316a3f21e55cbabc15922d6d02a::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC>'
           )?.amount,
           stakeAPR: res2[2]?.apr,
           // @ts-ignore
           earnedANI: res.get(
-            '0x6d013996933469b027ea0917214f9c45e6f10b7aa075b4200c11869069fb471b::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC>'
+            '0x2ce24c1d7cc2aebc8effbf4b8bf8d35985627316a3f21e55cbabc15922d6d02a::LPCoinV1::LPCoin<0x1::aptos_coin::AptosCoin, 0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC>'
           )?.pendingAni,
         })
       }

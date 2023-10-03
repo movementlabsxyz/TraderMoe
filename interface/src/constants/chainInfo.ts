@@ -32,10 +32,10 @@ export const CHAIN_INFO: ChainInfoMap = {
     label: 'Aptos',
     logoUrl: aptosLogo,
     nativeCoin: APTOS_CoinInfo['0x1::aptos_coin::AptosCoin'],
-    moeCoin: APTOS_CoinInfo['0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin'],
+    moeCoin: APTOS_CoinInfo['0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::moe_coin::MoeCoin'],
     defaultBuyCoin:
-      APTOS_CoinInfo['0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin'],
-    stableCoin: APTOS_CoinInfo['0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::asset::USDC'],
+      APTOS_CoinInfo['0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::moe_coin::MoeCoin'],
+    stableCoin: APTOS_CoinInfo['0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::asset::USDC'],
   },
   [SupportedChainId.MOVEMENT_TESTNET]: {
     docs: 'https://docs.movementlabs.xyz/',
@@ -44,11 +44,11 @@ export const CHAIN_INFO: ChainInfoMap = {
     logoUrl: aptosLogo,
     nativeCoin: MOVEMENT_TESTNET_CoinInfo['0x1::aptos_coin::AptosCoin'],
     moeCoin:
-      MOVEMENT_TESTNET_CoinInfo['0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin'],
+      MOVEMENT_TESTNET_CoinInfo['0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::moe_coin::MoeCoin'],
     defaultBuyCoin:
-      MOVEMENT_TESTNET_CoinInfo['0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::moe_coin::MoeCoin'],
+      MOVEMENT_TESTNET_CoinInfo['0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::moe_coin::MoeCoin'],
     stableCoin:
-      MOVEMENT_TESTNET_CoinInfo['0x2e2f2175ecc96dfc48dbd789da52455344513e98c0641a737637fe83dc0b6d7c::TestCoinsV1::USDT'],
+      MOVEMENT_TESTNET_CoinInfo['0x5672606854002b598c229d348a1f117dc036a6bc9772b0ea8a9bf8bd2f2c9d64::TestCoinsV1::USDT'],
   },
 }
 
