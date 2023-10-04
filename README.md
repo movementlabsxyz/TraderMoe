@@ -1,6 +1,6 @@
 **Disclaimer:** The original TraderMoe can be found here: https://github.com/AshAvalanche/TraderMoe. This repo is only intended for educational purposes. 
 
-**Note:** Use the demo branch to engage with a more user-friendly deployment process.
+**Note:** Use the demo branch to engage with a more user-friendly deployment process if you are using your own wallet.
 
 # Trader Mo(v)e
 
